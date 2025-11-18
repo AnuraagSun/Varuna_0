@@ -85,3 +85,17 @@ Pin 2 (DATA) →   Pin 7  (GPIO 4)
 Pin 4 (GND)  →   Pin 9  (GND)
 ```
 IMPORTANT: Add 10kΩ pull-up resistor between Pin 2 and Pin 1
+
+
+SIM800L :
+```
+
+SIM800L          Raspberry Pi 3B          External Power
+-------          ---------------          --------------
+VCC      ----→   (NOT CONNECTED)   ←----  Buck Converter 4.0V
+GND      ----→   Pin 6 (GND)       ←----  Buck GND (common ground)
+TXD      ----→   Pin 10 (GPIO 15 / RXD)
+RXD      ----→   Pin 8  (GPIO 14 / TXD)
+RST      ----→   Pin 11 (GPIO 17)
+```
+
