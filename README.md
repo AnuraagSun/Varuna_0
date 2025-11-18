@@ -98,4 +98,14 @@ TXD      ----→   Pin 10 (GPIO 15 / RXD)
 RXD      ----→   Pin 8  (GPIO 14 / TXD)
 RST      ----→   Pin 11 (GPIO 17)
 ```
+Build
 
+```
+cd ~/Anura/PROEJCT/varuna_ui
+
+rm -rf build CMakeFiles CMakeCache.txt cmake_install.cmake Makefile
+rm -rf infotainment-os-v15_* .qmlcache .qt6
+mkdir build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j4
+```
