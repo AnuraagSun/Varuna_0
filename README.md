@@ -108,4 +108,5 @@ rm -rf infotainment-os-v15_* .qmlcache .qt6
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j4
+./varuna_ui
 ```
