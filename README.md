@@ -65,7 +65,7 @@ nano ../config/config.json
 python3 read_sensors.py
 ```
 
-Wiring :
+MPU6050 Wiring :
 ```
 MPU6050          Raspberry Pi 3B
 -------          ---------------
@@ -74,3 +74,14 @@ GND      ----→   Pin 6  (GND)
 SCL      ----→   Pin 5  (GPIO 3 / SCL)
 SDA      ----→   Pin 3  (GPIO 2 / SDA)
 ```
+
+
+DHT22 Wiring :
+```
+DHT22            Raspberry Pi 3B
+-----            ---------------
+Pin 1 (VCC)  →   Pin 1  (3.3V)
+Pin 2 (DATA) →   Pin 7  (GPIO 4)
+Pin 4 (GND)  →   Pin 9  (GND)
+```
+IMPORTANT: Add 10kΩ pull-up resistor between Pin 2 and Pin 1
