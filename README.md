@@ -64,3 +64,13 @@ nano ../config/config.json
 # 7. Test again
 python3 read_sensors.py
 ```
+
+Wiring :
+```
+MPU6050          Raspberry Pi 3B
+-------          ---------------
+VCC      ----→   Pin 1  (3.3V)
+GND      ----→   Pin 6  (GND)
+SCL      ----→   Pin 5  (GPIO 3 / SCL)
+SDA      ----→   Pin 3  (GPIO 2 / SDA)
+```
