@@ -1,0 +1,8 @@
+AlertBanner 1.0 AlertBanner.qml
+StatusIndicator 1.0 StatusIndicator.qml
+Header 1.0 Header.qml
+Dashboard 1.0 Dashboard.qml
+WaterGauge 1.0 WaterGauge.qml
+SensorCard 1.0 SensorCard.qml
+StatCard 1.0 StatCard.qml
+CommandPanel 1.0 CommandPanel.qml

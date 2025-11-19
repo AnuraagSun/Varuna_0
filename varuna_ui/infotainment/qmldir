@@ -1,0 +1,21 @@
+module infotainment
+typeinfo infotainment-os-v15.qmltypes
+prefer :/qt/qml/infotainment/
+NotificationPanel 1.0 qml/components/NotificationPanel.qml
+ClimateControl 1.0 qml/components/ClimateControl.qml
+MiscControls 1.0 qml/components/MiscControls.qml
+AIWindow 1.0 qml/components/AIWindow.qml
+VoiceVisualizer 1.0 qml/components/VoiceVisualizer.qml
+ChatHistoryList 1.0 qml/components/ChatHistoryList.qml
+TestAI 1.0 qml/components/TestAI.qml
+AudioWindow 1.0 qml/components/AudioWindow.qml
+ClockWindow 1.0 qml/components/ClockWindow.qml
+BluetoothWindow 1.0 qml/components/BluetoothWindow.qml
+SafetyWorkspace 1.0 qml/components/SafetyWorkspace.qml
+SosWorkspace 1.0 qml/components/SosWorkspace.qml
+WeatherWorkspace 1.0 qml/components/WeatherWorkspace.qml
+CarCameraWorkspace 1.0 qml/components/CarCameraWorkspace.qml
+MapWorkspace 1.0 qml/components/MapWorkspace.qml
+PhoneCallUI 1.0 qml/components/PhoneCallUI.qml
+depends QtQuick
+

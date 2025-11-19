@@ -1,0 +1,20 @@
+{
+  "device_id": "CWC-RJ-001",
+  "location": {
+    "name": "Jaipur, Rajasthan",
+    "river": "River Yamuna",
+    "latitude": 26.9124,
+    "longitude": 75.7873
+  },
+  "calibration": {
+    "L_arm": 1.5,
+    "H_pivot": 2.0,
+    "R_float": 0.15,
+    "mpu6050_offset": 0.0
+  },
+  "thresholds": {
+    "warning_level_cm": 200,
+    "danger_level_cm": 250,
+    "max_level_cm": 300
+  }
+}

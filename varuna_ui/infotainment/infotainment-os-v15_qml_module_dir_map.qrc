@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/infotainment">/home/anura/Anura/PROEJCT/varuna_ui/infotainment</file>
+
+  </qresource>
+</RCC>

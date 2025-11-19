@@ -1,0 +1,32 @@
+<!--
+═══════════════════════════════════════════════════════════════
+FILE: resources/resources.qrc
+PHASE: Phase 7 - Communication and Control Features
+LOCATION: varuna_ui/resources/resources.qrc
+═══════════════════════════════════════════════════════════════
+-->
+
+<RCC>
+    <qresource prefix="/">
+        <file>../qml/main.qml</file>
+        <file>../qml/Constants.qml</file>
+        <file>../qml/qmldir</file>
+        <file>../qml/components/Header.qml</file>
+        <file>../qml/components/Dashboard.qml</file>
+        <file>../qml/components/WaterGauge.qml</file>
+        <file>../qml/components/SensorCard.qml</file>
+        <file>../qml/components/StatCard.qml</file>
+        <file>../qml/components/AlertBanner.qml</file>
+        <file>../qml/components/StatusIndicator.qml</file>
+        <file>../qml/components/CommandPanel.qml</file>
+        <file>../qml/components/qmldir</file>
+        <file>../qml/utils/DataSimulator.qml</file>
+        <file>../qml/utils/qmldir</file>
+    </qresource>
+</RCC>
+
+<!--
+═══════════════════════════════════════════════════════════════
+END OF FILE: resources/resources.qrc
+═══════════════════════════════════════════════════════════════
+-->
